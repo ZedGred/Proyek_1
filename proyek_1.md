@@ -98,10 +98,11 @@ rf.fit(X_train, y_train)
 ## Evaluation
 - Metrik yang saya gunakan adalah metrics akurasi yang menghitung jumlah data yang diprediksi dengan benar.
 ```
-               train	   test
-SVM 	     98.75	 99.0
-RF	         100.0	  99.5
-Logistic	96.25	  96.5
+                   Train Test   
+SVM                98.5  99.0
+RandomForest       100.0 99.5
+LogisticRegression 96.25 96.5
+
 ```
 Dari data di atas model RandomForest memiliki akurasi train dan test paling tinggi di antara model lainnya.
 **Tambahan :**
