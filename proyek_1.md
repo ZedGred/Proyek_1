@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning - Pebiyan Firmansyah 
+__# Laporan Proyek Machine Learning - Pebiyan Firmansyah 
 
 ## Domain Proyek
 
@@ -98,21 +98,21 @@ rf.fit(X_train, y_train)
 ## Evaluation
 - Metrik yang saya gunakan adalah metrics akurasi yang menghitung jumlah data yang diprediksi dengan benar.
 ```
-         train	 test
-SVM 	    98.75	 99.0
-RF	      100.0	 99.5
-Logistic	96.25	 96.5
+               train	   test
+SVM 	     98.75	 99.0
+RF	         100.0	  99.5
+Logistic	96.25	  96.5
 ```
 Dari data di atas model RandomForest memiliki akurasi train dan test paling tinggi di antara model lainnya.
 **Tambahan :**
 - Formula metrics akurasi adalah sebagai berikut : 
-  ```
+```
 Akurasi=TP+TN/FP+FN+TP+TN
 TP = True positive
 TN = True negative 
 FP = False positive
 FN = False negative
-  ```
+```
 
 - Metrik akurasi bekerja dengan membandingkan label yang diprediksi oleh model dengan label yang sebenarnya dari data. 
 
